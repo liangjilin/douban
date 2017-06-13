@@ -10,270 +10,12 @@
       <div class="recommend">
         <span>精选推荐</span>
       </div>
-      <div class="group-item" style="margin-top: .4rem">
-        <div class="group-item-title">影视</div>
-        <ul>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>120人</span>
-                <img src="../../assets/images/group/ic_group_check_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>20人</span>
-                <img src="../../assets/images/group/ic_group_checked_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>20人</span>
-                <img src="../../assets/images/group/ic_group_check_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="group-item">
-        <div class="group-item-title">读书</div>
-        <ul>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>120人</span>
-                <img src="../../assets/images/group/ic_group_check_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>20人</span>
-                <img src="../../assets/images/group/ic_group_check_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>20人</span>
-                <img src="../../assets/images/group/ic_group_check_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="group-item">
-        <div class="group-item-title">音乐</div>
-        <ul>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>120人</span>
-                <img src="../../assets/images/group/ic_group_check_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>20人</span>
-                <img src="../../assets/images/group/ic_group_check_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>20人</span>
-                <img src="../../assets/images/group/ic_group_check_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="group-item">
-        <div class="group-item-title">同城</div>
-        <ul>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>120人</span>
-                <img src="../../assets/images/group/ic_group_check_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>20人</span>
-                <img src="../../assets/images/group/ic_group_check_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>20人</span>
-                <img src="../../assets/images/group/ic_group_check_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="group-item">
-        <div class="group-item-title">高校</div>
-        <ul>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>120人</span>
-                <img src="../../assets/images/group/ic_group_check_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>20人</span>
-                <img src="../../assets/images/group/ic_group_check_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>20人</span>
-                <img src="../../assets/images/group/ic_group_check_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="group-item">
-        <div class="group-item-title">职场</div>
-        <ul>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>120人</span>
-                <img src="../../assets/images/group/ic_group_check_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>20人</span>
-                <img src="../../assets/images/group/ic_group_check_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li>
-            <a class="group-item-list">
-              <img class="group-item-listHead" src="../../assets/images/main/detail1.jpg" alt="">
-              <div class="group-item-listContent">
-                <h3>我是标题</h3>
-                <p>我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,我是内容，很多很多很多的内容,</p>
-              </div>
-              <div class="group-item-listRight">
-                <span>20人</span>
-                <img src="../../assets/images/group/ic_group_check_anonymous.png" alt="">
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
+      <v-group style="margin-top: .4rem" :groupData="group_movie" title="影视"></v-group>
+      <v-group style="margin-top: .4rem" :groupData="group_book" title="读书"></v-group>
+      <v-group style="margin-top: .4rem" :groupData="group_music" title="音乐"></v-group>
+      <v-group style="margin-top: .4rem" :groupData="group_city" title="同城"></v-group>
+      <v-group style="margin-top: .4rem" :groupData="group_college" title="高校"></v-group>
+      <v-group style="margin-top: .4rem" :groupData="group_work" title="职场"></v-group>
     </div>
 </template>
 <style lang="stylus" rel="stylesheet/stylus">
@@ -340,6 +82,7 @@
         display flex
         align-items center
         overflow hidden
+        position relative
         .group-item-listHead
           width 1rem
           height 1rem
@@ -347,6 +90,7 @@
           border-radius 3px
           margin-right .2rem
         .group-item-listContent
+          max-width 4.2rem
           h3
             font-size 16px
             font-weight 500
@@ -364,6 +108,8 @@
         .group-item-listRight
           min-width 1.8rem
           text-align right
+          position absolute
+          right 0
           span
             color #aaa
             vertical-align middle
@@ -374,9 +120,48 @@
             vertical-align middle
 </style>
 <script>
+    import group from '../../components/group.vue'
+    import axios from 'axios'
+
     export default{
       data () {
-        return {}
+        return {
+          group_movie: {},
+          group_book: {},
+          group_music: {},
+          group_city: {},
+          group_college: {},
+          group_work: {}
+        }
+      },
+      components: {
+        'v-group': group
+      },
+      created () {
+        this.getGroupData()
+      },
+      methods: {
+        getGroupData () {
+          axios.get('../../static/group.json').then((res) => {
+            let data = res.data.object
+            data.forEach((value, index) => {
+              if (value.type === '影视') {
+                this.group_movie = value.data
+              } else if (value.type === '读书') {
+                this.group_book = value.data
+              } else if (value.type === '音乐') {
+                this.group_music = value.data
+              } else if (value.type === '同城') {
+                this.group_city = value.data
+              } else if (value.type === '高校') {
+                this.group_college = value.data
+              } else if (value.type === '职场') {
+                this.group_work = value.data
+              }
+            })
+            console.log(this.group_movie)
+          })
+        }
       }
     }
 </script>

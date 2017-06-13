@@ -1,0 +1,250 @@
+{
+  "object": [
+    {
+      "type": "影视",
+      "data": [
+        {
+          "title": "异地恋：爱是最大救赎",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img3.doubanio.com/icon/g24916-11.jpg"
+          },
+          "group_member": 2736,
+          "group_topic": {
+            "title": "a7出租老男孩一枚，先到先得。。。。。"
+          }
+        },
+        {
+          "title": "我要女朋友",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img3.doubanio.com/icon/g64343-1.jpg"
+          },
+          "group_member": 8536,
+          "group_topic": {
+            "title": "万水千山总是情 来个真爱行不行"
+          }
+        },
+        {
+          "title": "加入这个组你就会有男朋友",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img3.doubanio.com/icon/g233931-6.jpg"
+          },
+          "group_member": 245983,
+          "group_topic": {
+            "title": "【有图】慢慢来，我不急，反正都等了那么久了"
+          }
+        }
+      ]
+    },
+    {
+      "type": "读书",
+      "data": [
+        {
+          "title": "双鱼座到碗里来(不关注组长进不来)",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img3.doubanio.com/icon/g10813-13.jpg"
+          },
+          "group_member": 64769,
+          "group_topic": {
+            "title": "双鱼男感觉像农村里受气的小媳妇"
+          }
+        },
+        {
+          "title": "我爱我恨水瓶男",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img3.doubanio.com/icon/g141197-2.jpg"
+          },
+          "group_member": 25882,
+          "group_topic": {
+            "title": "有经验的姐妹们帮帮我"
+          }
+        },
+        {
+          "title": "★星译社ATS★",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img1.doubanio.com/icon/g104169-148.jpg"
+          },
+          "group_member": 6679,
+          "group_topic": {
+            "title": "（周运）阿莎莉娅每周能量运势6.12-6.18（全待）"
+          }
+        }
+      ]
+    },
+    {
+      "type": "音乐",
+      "data": [
+        {
+          "title": "我们的云南谁的丽江 | 旅行",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img3.doubanio.com/icon/g116533-6.jpg"
+          },
+          "group_member": 128660,
+          "group_topic": {
+            "title": "云南丽江七日游"
+          }
+        },
+        {
+          "title": "台灣自由行",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img1.doubanio.com/icon/g346974-9.jpg"
+          },
+          "group_member": 106565,
+          "group_topic": {
+            "title": "6.30-7.7杭州出发台湾自由行~有一起的小伙伴吗？"
+          }
+        },
+        {
+          "title": "去义工旅行（微信：Yigongtrip）",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img1.doubanio.com/icon/g312709-19.jpg"
+          },
+          "group_member": 86786,
+          "group_topic": {
+            "title": "兴坪三十度灰青年旅舍义工招募贴"
+          }
+        }
+      ]
+    },
+    {
+      "type": "同城",
+      "data": [
+        {
+          "title": "成都租房",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img3.doubanio.com/icon/g117205-2.jpg"
+          },
+          "group_member": 43736,
+          "group_topic": {
+            "title": "天府四街临江苑套一出租个人 无中介费噢"
+          }
+        },
+        {
+          "title": "北京租房（非中介）",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img3.doubanio.com/icon/g279962-3.jpg"
+          },
+          "group_member": 53736,
+          "group_topic": {
+            "title": "9号线丰台南路站看丹桥新华街四里，次卧出租，押一付一"
+          }
+        },
+        {
+          "title": "深圳福田租房（个人房源免费推广）",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img3.doubanio.com/icon/g117205-2.jpg"
+          },
+          "group_member": 4373,
+          "group_topic": {
+            "title": "福田福民岗厦复式单间整租，2800，可短租"
+          }
+        }
+      ]
+    },
+    {
+      "type": "高校",
+      "data": [
+        {
+          "title": "想不想很多人帮你",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img1.doubanio.com/icon/g14859-17.jpg"
+          },
+          "group_member": 431999,
+          "group_topic": {
+            "title": "想转专业去学日语大家有神马建议，想转专业去学日语大家有神马建议"
+          }
+        },
+        {
+          "title": "我们都有秘密",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img5.doubanio.com/icon/g399184-6.jpg"
+          },
+          "group_member": 96960,
+          "group_topic": {
+            "title": "北京 征个女生，要年轻漂亮，心地善良，孝顺"
+          }
+        },
+        {
+          "title": "文艺青年装逼会",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img1.doubanio.com/icon/g17947-8.jpg"
+          },
+          "group_member": 437361,
+          "group_topic": {
+            "title": "文艺青年装逼会，在这里，没人在乎你的出生，你的身份，你的工作，只要你有才华，尽情装B吧"
+          }
+        }
+      ]
+    },
+    {
+      "type": "职场",
+      "data": [
+        {
+          "title": "我爱代购&amp;海淘☺微信号",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img5.doubanio.com/icon/g37539-6.jpg"
+          },
+          "group_member": 43129,
+          "group_topic": {
+            "title": "靠谱小日代 薇信直播定位+邮寄单号 可拼邮可直邮 保证品 ～笔芯"
+          }
+        },
+        {
+          "title": "PiaPia团✿团购",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img3.doubanio.com/icon/g573696-2.jpg"
+          },
+          "group_member": 21960,
+          "group_topic": {
+            "title": "【想买】之前团过的包要吗？要就快来吧"
+          }
+        },
+        {
+          "title": "我们一起海淘",
+          "subtype": "group",
+          "id": 1234,
+          "images": {
+            "small": "https://img3.doubanio.com/icon/g25704-22.jpg"
+          },
+          "group_member": 2361,
+          "group_topic": {
+            "title": "靠谱小日代 薇信直播定位+邮寄单号 可拼邮可直邮 保正品～笔芯"
+          }
+        }
+      ]
+    }
+  ]
+}
