@@ -113,11 +113,16 @@
           span
             color #aaa
             vertical-align middle
-          img
+          .check
             display inline-block
-            width 0.4rem
-            height auto
+            width .4rem
+            height .4rem
             vertical-align middle
+            background url("../../assets/images/group/ic_group_check_anonymous.png") no-repeat
+            background-size cover
+            &.checked
+              background url("../../assets/images/group/ic_group_checked_anonymous.png") no-repeat
+              background-size cover
 </style>
 <script>
     import group from '../../components/group.vue'

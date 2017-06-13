@@ -9,7 +9,7 @@
           </div>
           <div class="group-item-listRight">
             <span>{{item.group_member}}人</span>
-            <img src="../assets/images/group/ic_group_check_anonymous.png" alt="">
+            <a class="check"></a>
           </div>
         </a>
       </li>
@@ -24,7 +24,8 @@
         'groupData'
       ],
       data () {
-        return {}
+        return {
+        }
       }
     }
 </script>
