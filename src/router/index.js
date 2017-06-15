@@ -17,6 +17,7 @@ import CityMore from '@/pages/video/city/cityMore/cityMore.vue'
 import CityDetail from '@/pages/video/city/cityDetail/cityDetail.vue'
 
 import BroadcastDetail from '@/pages/broadcast/broadcastDetail/broadcastDetail.vue'   //   广播详情
+import GroupDetail from '@/pages/group/groupDetail/groupDetail.vue'   //   小组详情
 
 Vue.use(Router)
 
@@ -101,6 +102,11 @@ export default new Router({
       path: '/broadcastDetail',
       name: 'broadcastDetail',
       component: BroadcastDetail
+    },
+    {
+      path: '/groupDetail',
+      name: 'groupDetail',
+      component: GroupDetail
     }
   ]
 })

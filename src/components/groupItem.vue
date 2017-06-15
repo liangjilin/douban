@@ -1,7 +1,7 @@
 <template>
     <ul>
       <li v-for="item in groupData">
-        <a class="group-item-list">
+        <router-link class="group-item-list" :to="{name: 'groupDetail', params: {data: item}}">
           <img class="group-item-listHead" v-if="item.images.small" :src="item.images.small" alt="">
           <div class="group-item-listContent">
             <h3>{{item.title}}</h3>
@@ -11,7 +11,7 @@
             <span>{{item.group_member}}人</span>
             <a class="check"></a>
           </div>
-        </a>
+        </router-link>
       </li>
     </ul>
 </template>

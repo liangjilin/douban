@@ -11,11 +11,11 @@
         <span>精选推荐</span>
       </div>
       <v-group style="margin-top: .4rem" :groupData="group_movie" title="影视"></v-group>
-      <v-group style="margin-top: .4rem" :groupData="group_book" title="读书"></v-group>
-      <v-group style="margin-top: .4rem" :groupData="group_music" title="音乐"></v-group>
-      <v-group style="margin-top: .4rem" :groupData="group_city" title="同城"></v-group>
-      <v-group style="margin-top: .4rem" :groupData="group_college" title="高校"></v-group>
-      <v-group style="margin-top: .4rem" :groupData="group_work" title="职场"></v-group>
+      <v-group :groupData="group_book" title="读书"></v-group>
+      <v-group :groupData="group_music" title="音乐"></v-group>
+      <v-group :groupData="group_city" title="同城"></v-group>
+      <v-group :groupData="group_college" title="高校"></v-group>
+      <v-group :groupData="group_work" title="职场"></v-group>
     </div>
 </template>
 <style lang="stylus" rel="stylesheet/stylus">
