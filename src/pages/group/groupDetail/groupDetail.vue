@@ -25,7 +25,7 @@
           <a class="close" v-show="showFlag === 1" @click="showFlag = 2">收起 <img src="../../../assets/images/common/ic_tag_folder_up.png" alt=""></a>
           <a class="open" v-show="showFlag === 2" @click="showFlag = 1">展开 <img src="../../../assets/images/common/ic_tag_folder_down.png" alt=""></a>
         </div>
-        <ul class="admin-scroller">
+        <ul class="admin-scroller" v-show="showFlag === 1">
           <li v-for="n in 8">
             <a>
               <img src="../../../assets/images/main/detail1.jpg" alt="">
