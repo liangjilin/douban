@@ -10,12 +10,15 @@
       <div class="recommend">
         <span>精选推荐</span>
       </div>
-      <v-group style="margin-top: .4rem" :groupData="group_movie" title="影视"></v-group>
-      <v-group :groupData="group_book" title="读书"></v-group>
-      <v-group :groupData="group_music" title="音乐"></v-group>
-      <v-group :groupData="group_city" title="同城"></v-group>
-      <v-group :groupData="group_college" title="高校"></v-group>
-      <v-group :groupData="group_work" title="职场"></v-group>
+      <template v-if="!loadingValue">
+        <v-group style="margin-top: .4rem" :groupData="group_movie" title="影视"></v-group>
+        <v-group :groupData="group_book" title="读书"></v-group>
+        <v-group :groupData="group_music" title="音乐"></v-group>
+        <v-group :groupData="group_city" title="同城"></v-group>
+        <v-group :groupData="group_college" title="高校"></v-group>
+        <v-group :groupData="group_work" title="职场"></v-group>
+      </template>
+      <v-loading v-if="loadingValue" style="padding-top: 2.5rem"></v-loading>
     </div>
 </template>
 <style lang="stylus" rel="stylesheet/stylus">
@@ -125,6 +128,7 @@
               background-size cover
 </style>
 <script>
+    import loading from '../../components/loading.vue'
     import group from '../../components/group.vue'
     import axios from 'axios'
 
@@ -136,11 +140,13 @@
           group_music: {},
           group_city: {},
           group_college: {},
-          group_work: {}
+          group_work: {},
+          loadingValue: true
         }
       },
       components: {
-        'v-group': group
+        'v-group': group,
+        'v-loading': loading
       },
       created () {
         this.getGroupData()
@@ -164,7 +170,7 @@
                 this.group_work = value.data
               }
             })
-            console.log(this.group_movie)
+            this.loadingValue = false
           })
         }
       }
