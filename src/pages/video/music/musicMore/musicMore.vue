@@ -38,8 +38,16 @@
       },
       methods: {
         getMusicData () {
-          this.title = this.$route.params.title
-          this.musicData = this.$route.params.musicList
+          if (this.$route.params.musicList !== undefined) {
+            let setTitle = JSON.stringify(this.$route.params.title)
+            let setMusicData = JSON.stringify(this.$route.params.musicList)
+            localStorage.setItem('title', setTitle)
+            localStorage.setItem('MusicData', setMusicData)
+          }
+          let getTitle = localStorage.getItem('title')
+          let getMusicData = localStorage.getItem('MusicData')
+          this.title = JSON.parse(getTitle)
+          this.musicData = JSON.parse(getMusicData)
         }
       }
     }

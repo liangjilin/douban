@@ -75,8 +75,16 @@
       },
       methods: {
         getFictionData () {
-          this.fictionData = this.$route.params.fiction
-          this.noFictionData = this.$route.params.noFiction
+          if (this.$route.params.fiction !== undefined) {
+            let setFiction = JSON.stringify(this.$route.params.fiction)
+            let setNofiction = JSON.stringify(this.$route.params.noFiction)
+            localStorage.setItem('fictionData', setFiction)
+            localStorage.setItem('noFictionData', setNofiction)
+          }
+          let getFictionData = localStorage.getItem('fictionData')
+          let getNofictionData = localStorage.getItem('noFictionData')
+          this.fictionData = JSON.parse(getFictionData)
+          this.noFictionData = JSON.parse(getNofictionData)
         }
       }
     }

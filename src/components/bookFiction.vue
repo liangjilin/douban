@@ -1,6 +1,6 @@
 <template>
     <div class="fictionItem">
-      <div class="bookBox">
+      <router-link class="bookBox" :to="{name: 'bookDetail', params:{item: book}}">
         <img class="bookBox-lf" :src="book.images.large" alt="">
         <div class="bookBox-rt">
           <h3>{{book.title}}</h3>
@@ -8,13 +8,14 @@
           <p>作者：{{book.author}}</p>
           <p>出版社：{{book.publisher}}</p>
         </div>
-      </div>
+      </router-link>
       <p class="summary">{{book.author_intro}}</p>
     </div>
 </template>
 <style lang="stylus" rel="stylesheet/stylus">
 .fictionItem
   .bookBox
+    display block
     margin-top .8rem
     padding .25rem
     border 1px solid #dcdcdc
@@ -32,6 +33,8 @@
         font-size 16px
         font-weight bold
         margin-bottom .2rem
+        max-width 4rem
+        color #111
       p
         max-width 4.5rem
         text-align justify

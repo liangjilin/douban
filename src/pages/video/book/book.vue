@@ -71,15 +71,15 @@
         <div class="content" slot="promItem">
           <ul class="scroll-items">
             <li class="marginLeft3" v-for="(item, index) in sliceThree(book_Original)">
-              <a class="movie-box">
+              <router-link class="movie-box" :to="{name: 'bookDetail', params:{item: item}}">
                 <div class="item-poster" :style="'background:' + 'url(' + item.images.large + ')'"></div>
                 <span class="item-title">{{item.title}}</span>
                 <v-rating :rating="item.rating"></v-rating>
-              </a>
+              </router-link>
             </li>
           </ul>
         </div>
-        <div class="lookMore" slot="lookMore">查看更多 <i class="fa fa-angle-right colorGreen"></i></div>
+        <router-link class="lookMore" slot="lookMore" :to="{name: 'interestedMore', params: {typeValue: 'book', data: book_store}}">查看更多 <i class="fa fa-angle-right colorGreen"></i></router-link>
       </v-scroller>
       <div class="m-box contentAfterN">
         <div class="title">
@@ -211,6 +211,7 @@
           line-height 1.5
           color #9B9B9B
 .lookMore
+  display block
   width 100%
   height 0.6rem
   line-height 0.6rem

@@ -4,8 +4,8 @@
     <div class="middle">
       <h3>{{television.title}}</h3>
       <v-rating :rating="television.rating"></v-rating>
-      <p>作者：{{television.author}}</p>
-      <p>出版社：{{television.publisher}}</p>
+      <p>导演：{{television.directors[0].name}}</p>
+      <p>演员：<span v-for="item in television.casts">{{item.name}}/</span></p>
       <div class="comment-box">
         <p class="comment">{{television.summary}}</p>
       </div>

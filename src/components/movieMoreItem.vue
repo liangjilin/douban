@@ -32,6 +32,7 @@
       font-weight bold
       color #111
       line-height 1.5
+      max-width 4rem
     .cityDetail-p
       margin-top .1rem
       span

@@ -174,6 +174,7 @@
     font-size 24px
     margin-bottom .2rem
     line-height 1.5
+    max-width 5rem
   p
     max-width 5rem
     text-align justify

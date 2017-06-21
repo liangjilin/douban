@@ -151,8 +151,16 @@
         },
         getMovieData () {
           this.activeFlg = this.$route.params.activeValue
-          this.hotMovieList = this.$route.params.hotMovie
-          this.comingMovieList = this.$route.params.comingMovie
+          if (this.$route.params.hotMovie !== undefined) {
+            let setHotMovie = JSON.stringify(this.$route.params.hotMovie)
+            let setComingMovie = JSON.stringify(this.$route.params.comingMovie)
+            localStorage.setItem('HotMovie', setHotMovie)
+            localStorage.setItem('ComingMovie', setComingMovie)
+          }
+          let getHotMovie = localStorage.getItem('HotMovie')
+          let getComingMovie = localStorage.getItem('ComingMovie')
+          this.hotMovieList = JSON.parse(getHotMovie)
+          this.comingMovieList = JSON.parse(getComingMovie)
         },
 //        今天星期几
         getToday (value) {

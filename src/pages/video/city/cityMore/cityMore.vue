@@ -37,8 +37,16 @@
     },
     methods: {
       getCitydata () {
-        this.title = this.$route.params.title
-        this.citydata = this.$route.params.citydata
+        if (this.$route.params.citydata !== undefined) {
+          let setTitle = JSON.stringify(this.$route.params.title)
+          let setCityData = JSON.stringify(this.$route.params.citydata)
+          localStorage.setItem('title', setTitle)
+          localStorage.setItem('cityData', setCityData)
+        }
+        let getTitle = localStorage.getItem('title')
+        let getCityData = localStorage.getItem('cityData')
+        this.title = JSON.parse(getTitle)
+        this.citydata = JSON.parse(getCityData)
       }
     }
   }

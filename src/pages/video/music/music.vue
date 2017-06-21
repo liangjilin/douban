@@ -33,15 +33,15 @@
         <div class="content" slot="promItem">
           <ul class="scroll-items">
             <li class="marginLeft3" v-for="(item, index) in sliceThree(music_Hot)">
-              <a class="movie-box">
+              <router-link class="movie-box" :to="{name: 'musicDetail', params:{item: item}}">
                 <div class="item-poster" :style="'background:' + 'url(' + item.image + ')'"></div>
                 <span class="item-title">{{item.title}}</span>
                 <v-rating :rating="item.rating"></v-rating>
-              </a>
+              </router-link>
             </li>
           </ul>
         </div>
-        <div class="lookMore" slot="lookMore">查看更多 <i class="fa fa-angle-right colorGreen"></i></div>
+        <router-link class="lookMore" slot="lookMore" :to="{name: 'interestedMore', params: {typeValue: 'music', data: music_Usa}}">查看更多 <i class="fa fa-angle-right colorGreen"></i></router-link>
       </v-scroller>
       <div class="m-box contentAfterN">
         <div class="title">

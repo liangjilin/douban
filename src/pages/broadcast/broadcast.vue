@@ -10,7 +10,7 @@
           <li>
             <router-link class="gb-item" :to="{name: 'broadcastDetail'}">
               <img class="gb-item-headPic" src="../../assets/images/main/detail1.jpg" alt="">
-              <img class="gb-item-close" src="../../assets/images/broadcast/ic_close_status_recommend.png"/>
+              <a class="gb-item-close"><img src="../../assets/images/common/ic_close_status_recommend.png"/></a>
               <div class="gb-item-content">
                 <button class="content-attention">关注</button>
                 <h3 class="userName">西木</h3>
@@ -34,7 +34,7 @@
           <li>
             <router-link class="gb-item" :to="{name: 'broadcastDetail'}">
               <img class="gb-item-headPic" src="../../assets/images/main/detail1.jpg" alt="">
-              <img class="gb-item-close" src="../../assets/images/broadcast/ic_close_status_recommend.png"/>
+              <a class="gb-item-close"><img src="../../assets/images/common/ic_close_status_recommend.png"/></a>
               <div class="gb-item-content">
                 <button class="content-attention">关注</button>
                 <h3 class="userName">西木</h3>
@@ -56,7 +56,7 @@
           <li>
             <router-link class="gb-item" :to="{name: 'broadcastDetail'}">
               <img class="gb-item-headPic" src="../../assets/images/main/detail1.jpg" alt="">
-              <img class="gb-item-close" src="../../assets/images/broadcast/ic_close_status_recommend.png"/>
+              <a class="gb-item-close"><img src="../../assets/images/common/ic_close_status_recommend.png"/></a>
               <div class="gb-item-content">
                 <button class="content-attention">关注</button>
                 <h3 class="userName">西木</h3>
@@ -114,10 +114,11 @@
           top .6rem
           left .25rem
         .gb-item-close
-          width .5rem
           position absolute
           top .1rem
           right .1rem
+          img
+            width .5rem
         .gb-item-content
           position relative
           .content-attention

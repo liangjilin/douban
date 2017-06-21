@@ -25,7 +25,7 @@
         <span>{{bookDetail.year}}</span>
         <span v-for="item in bookDetail.genres"> / {{item}}</span>
       </p>
-      <p>作者：{{bookDetail.author[0]}}</p>
+      <p v-if="bookDetail.author">作者：{{bookDetail.author[0]}}</p>
       <p>出版社：{{bookDetail.publisher}}</p>
       <p>出版时间：{{bookDetail.pubdate}}</p>
     </div>

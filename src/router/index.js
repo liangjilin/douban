@@ -16,6 +16,8 @@ import TvMore from '@/pages/video/tv/tvMore/tvMore.vue'
 import CityMore from '@/pages/video/city/cityMore/cityMore.vue'
 import CityDetail from '@/pages/video/city/cityDetail/cityDetail.vue'
 
+import InterestedMore from '@/pages/video/interestedMore/interestedMore.vue'   //   更多感兴趣
+
 import BroadcastDetail from '@/pages/broadcast/broadcastDetail/broadcastDetail.vue'   //   广播详情
 import GroupDetail from '@/pages/group/groupDetail/groupDetail.vue'   //   小组详情
 
@@ -107,6 +109,11 @@ export default new Router({
       path: '/groupDetail',
       name: 'groupDetail',
       component: GroupDetail
+    },
+    {
+      path: '/interestedMore',
+      name: 'interestedMore',
+      component: InterestedMore
     }
   ]
 })

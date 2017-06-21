@@ -40,8 +40,16 @@
       },
       methods: {
         getBookData () {
-          this.title = this.$route.params.title
-          this.bookData = this.$route.params.data
+          if (this.$route.params.data !== undefined) {
+            let setTitle = JSON.stringify(this.$route.params.title)
+            let setBookData = JSON.stringify(this.$route.params.data)
+            localStorage.setItem('title', setTitle)
+            localStorage.setItem('bookData', setBookData)
+          }
+          let getTitle = localStorage.getItem('title')
+          let getBookData = localStorage.getItem('bookData')
+          this.title = JSON.parse(getTitle)
+          this.bookData = JSON.parse(getBookData)
         }
       }
     }

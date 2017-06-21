@@ -25,9 +25,8 @@
         <span>{{musicDetail.year}}</span>
         <span v-for="item in musicDetail.genres"> / {{item}}</span>
       </p>
-      <p v-if="musicDetail.author">作者：{{musicDetail.author[0].name}}</p>
-      <p v-if="musicDetail.attrs">出版社：{{musicDetail.attrs.publisher[0]}}</p>
-      <p v-if="musicDetail.attrs">出版时间：{{musicDetail.attrs.pubdate[0]}}</p>
+      <p v-if="musicDetail.author">表演者：{{musicDetail.author[0].name}}</p>
+      <p v-if="musicDetail.attrs">发行时间：{{musicDetail.attrs.pubdate[0]}}</p>
     </div>
     <div class="movieDetail-btn bookDetail-btn">
       <button>想听</button>

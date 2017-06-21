@@ -37,8 +37,16 @@
     },
     methods: {
       getTvData () {
-        this.title = this.$route.params.title
-        this.tvData = this.$route.params.tvData
+        if (this.$route.params.tvData !== undefined) {
+          let setTitle = JSON.stringify(this.$route.params.title)
+          let setTvData = JSON.stringify(this.$route.params.tvData)
+          localStorage.setItem('title', setTitle)
+          localStorage.setItem('TvData', setTvData)
+        }
+        let getTitle = localStorage.getItem('title')
+        let getTvData = localStorage.getItem('TvData')
+        this.title = JSON.parse(getTitle)
+        this.tvData = JSON.parse(getTvData)
       }
     }
   }

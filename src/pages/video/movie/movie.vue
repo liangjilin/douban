@@ -64,7 +64,7 @@
           </li>
         </ul>
       </div>
-      <div class="lookMore" slot="lookMore">查看更多 <i class="fa fa-angle-right colorGreen"></i></div>
+      <router-link class="lookMore" slot="lookMore" :to="{name: 'interestedMore', params: {typeValue: 'movie', data: movie_top250_list}}">查看更多 <i class="fa fa-angle-right colorGreen"></i></router-link>
     </v-scroller>
     <div class="m-box contentAfterN">
       <div class="title">
