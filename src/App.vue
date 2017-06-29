@@ -4,7 +4,7 @@
   </div>
 </template>
 <style lang="stylus" rel="stylesheet/stylus">
-@import "assets/css/common.styl"
+@import "assets/css/common.css"
 @import "assets/css/font-awesome.min.css"
 </style>
 <script>

@@ -292,7 +292,7 @@
       mounted () {
         this.$nextTick(() => {
           this.getGroupData()
-          this.abc()
+          this.groupScroll()
         })
       },
       computed: {
@@ -305,11 +305,10 @@
           this.groupData = this.$route.params.data
           console.log(this.groupData)
         },
-        abc () {
+        groupScroll () {
           let that = this
           window.onscroll = function () {
             let mTop = document.body.scrollTop
-            console.log(document.body.scrollTop)
             if (mTop >= 293) {
               that.fixedValue = true
             } else if (mTop <= 293) {
