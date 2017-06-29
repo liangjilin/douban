@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62589563-5655-4837-b2b3-f13167af45c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/group/groupDetail/groupDetail.vue" afterPath="$PROJECT_DIR$/src/pages/group/groupDetail/groupDetail.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,8 +41,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="840">
+              <caret line="165" column="67" lean-forward="true" selection-start-line="165" selection-start-column="67" selection-end-line="165" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -221,24 +218,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doubanAPP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doubanAPP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,17 +421,18 @@
       <workItem from="1497518816036" duration="4323000" />
       <workItem from="1497836204429" duration="24574000" />
       <workItem from="1498021305774" duration="16612000" />
-      <workItem from="1498721194231" duration="135000" />
+      <workItem from="1498721194231" duration="1272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="620390000" />
+    <option name="totallyTimeSpent" value="621527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="2572" height="1407" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13614838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13614838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -576,6 +556,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8370">
           <caret line="311" column="0" lean-forward="false" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -636,17 +617,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fetch/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="122" column="3" lean-forward="false" selection-start-line="122" selection-start-column="3" selection-end-line="122" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -661,6 +636,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -686,6 +664,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -882,10 +861,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fetch/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2650">
+          <caret line="122" column="3" lean-forward="false" selection-start-line="122" selection-start-column="3" selection-end-line="122" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="840">
+          <caret line="165" column="67" lean-forward="true" selection-start-line="165" selection-start-column="67" selection-end-line="165" selection-end-column="67" />
           <folding />
         </state>
       </provider>

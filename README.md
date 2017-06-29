@@ -135,7 +135,7 @@ npm run dev
 * `/v2/book` 图书；
 * `/v2/movie` 电影；
 * `/v2/music` 音乐；
-* `v2/event/list?loc=118282&count=10` 同城。
+* `v2/event` 同城。
 
 >更多关于豆瓣的api可以前往[豆瓣api官网](https://developers.douban.com/wiki/?title=guide)查看。
 
@@ -158,5 +158,10 @@ npm run dev
       }
     }
 ```
-# 关于vuex
-如果你想了解vuex的用法，请用力戳[Vuex文档](https://vuex.vuejs.org/zh-cn/)。
+# 关于相关依赖那些事
+
+vue-router, [vue路由配置](【vue路由】(https://router.vuejs.org/zh-cn/))
+axios请求，请用力戳[Axios文档](https://www.npmjs.com/package/axios)。
+亦或你想了解关于页面或跨组件数据通讯等的用法，请点击传送门[Vuex文档](https://vuex.vuejs.org/zh-cn/)。
+还是饿了么移动端组件库mint-ui,[mint-ui官方文档](http://mint-ui.github.io/docs/#/)。
+
