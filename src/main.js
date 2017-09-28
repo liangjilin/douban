@@ -18,3 +18,14 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
+// 打包改為-->打包APK時用到
+// document.addEventListener('deviceready', () => {
+//   new Vue({
+//     el: '#app',
+//     router,
+//     store,
+//     template: '<App/>',
+//     components: { App }
+//   })
+//   window.navigator.splashscreen.hide()
+// }, false)
